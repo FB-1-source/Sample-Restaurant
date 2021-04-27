@@ -71,6 +71,12 @@ body {
   .list li a {
     padding: 0.5rem 1rem;
   }
+  .images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .img1 {
     width: 100%;
@@ -119,16 +125,17 @@ body {
 
   .lowimgs {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .img5 {
-    width: 100%;
-    height: auto;
+    display: none;
   }
 
   .img6 {
-    width: 100%;
-    height: auto;
+    display: none;
   }
 
   .Menu {
