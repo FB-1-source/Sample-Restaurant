@@ -17,7 +17,7 @@ function Reviews() {
           <h1>Fresh ingredients!</h1>
           <div className="combo1">
             <h4>Kayla 04/21</h4>
-            <img src={user1}></img>
+            <img className="fimg" src={user1}></img>
           </div>
         </div>
         <div className="box2">

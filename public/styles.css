@@ -107,11 +107,6 @@ body {
     align-items: center;
   }
 
-  .allboxes img {
-    width: 100%;
-    height: auto;
-  }
-
   .box1 {
     margin-bottom: 10px;
   }
@@ -261,7 +256,8 @@ body {
   margin-left: 0.5rem;
 }
 .allboxes img {
-  width: 52px;
+  width: 100%;
+  height: auto;
   border-radius: 50%;
   display: flex;
   margin-right: 0.5rem;
