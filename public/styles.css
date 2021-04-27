@@ -46,6 +46,13 @@ body {
   background-color: #5555;
 }
 
+.allboxes img {
+  width: 32%;
+  border-radius: 50%;
+  display: flex;
+  margin-right: 0.5rem;
+}
+
 @media (max-width: 600px) {
   .list {
     display: flex;
@@ -100,10 +107,13 @@ body {
     align-items: center;
   }
 
+  .allboxes img {
+    display: none;
+  }
+
   .allboxes {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 
@@ -254,13 +264,6 @@ body {
 
 .allboxes h4 {
   margin-left: 0.5rem;
-}
-.allboxes img {
-  width: 100%;
-  height: auto;
-  border-radius: 50%;
-  display: flex;
-  margin-right: 0.5rem;
 }
 
 .lowimgs {
